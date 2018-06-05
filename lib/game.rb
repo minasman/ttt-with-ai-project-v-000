@@ -123,7 +123,7 @@ end
 def wargames 
   wins = 0 
   draws = 0 
-  100.times do 
+  1000.times do 
     turn until over?
     #binding.pry 
     wins += 1 if winner
